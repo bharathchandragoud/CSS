@@ -1,0 +1,28 @@
+/* CSS BOX Model
+Padding
+Margin
+Border
+border radius
+margin nagative
+*/
+
+* {
+  margin: 0;
+}
+h1 {
+  color: red;
+  background-color: blue;
+  padding: 20px 50px 45px 60px;
+  margin: 5px;
+  border: 7px solid black;
+}
+
+p {
+  border-top-style: dotted;
+  border-top-right-radius: 4px;
+  border-top-color: green;
+  background-color: black;
+  margin: 20px 40px 5px 30px;
+  color: aliceblue;
+  padding: 20px;
+}

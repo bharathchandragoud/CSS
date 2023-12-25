@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+
+.block {
+  color: aliceblue;
+  background-color: blue;
+  padding: 10px;
+  width: 200px;
+  margin: 10px auto;
+  /* display: inline; */
+}
+
+.inline {
+  color: black;
+  background-color: brown;
+  margin: 1rem;
+  /* display: block; */
+}

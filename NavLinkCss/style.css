@@ -1,0 +1,23 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: blue;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 20px;
+  /* display: block;
+  width: 100px;
+  padding: 10px 10px;
+  margin: 10px 10px; */
+}
+
+/* box-sizing: border-box; ---important property */
