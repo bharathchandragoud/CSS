@@ -1,0 +1,33 @@
+/* font-weight
+font-style
+text-align
+text-indent --- staring paragraph space
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    text-align: right;
+}
+.main{
+    text-align: center;
+}
+
+.one{
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    text-indent: 30px;
+}
+
+.two{
+    font-weight: lighter;
+    text-align: center;
+}
+
+.three{
+    font-weight: 300px;
+    font-style: oblique;
+}

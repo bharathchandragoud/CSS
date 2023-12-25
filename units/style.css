@@ -1,0 +1,56 @@
+/* h1{
+    font-size: 45px;
+    background-color: aqua;
+    width: 1000px;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* pixels won't depend */
+
+/* percentages will depends on parent data */
+.outer{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.inner{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+/* em = relative depends on parenrr
+    1 em = 16px default brower pixels
+    1em =base value
+
+*/
+
+
+.divClass{
+    font-size: 30px;
+}
+
+.relative{
+    font-size: 2em;
+}
+
+
+
+/* rem = relative depends on root
+    1 rem = 16px default brower pixels
+
+*/
+
+html{
+    font-size:  45px;
+}
+
+
+.relative{
+    font-size: 2rem;
+}

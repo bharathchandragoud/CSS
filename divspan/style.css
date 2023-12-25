@@ -1,0 +1,12 @@
+div {
+    color: red;
+    text-transform: inherit;
+}
+span{
+    color: green;
+}
+
+.div_blue{
+    color: blue;
+    background: violet;
+}

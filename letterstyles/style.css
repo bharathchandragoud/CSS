@@ -1,0 +1,32 @@
+/*
+line-height
+letter-spacing
+word-spacing
+text-transformation
+text-decoration 
+ */
+
+
+ .one{
+    line-height: 2.5em;
+ }
+
+ .two{
+   letter-spacing: 34px;
+ }
+
+ .three{
+   word-spacing: 58px;
+ }
+
+a{
+   /* text-decoration: none;
+    */
+    /* text-decoration: overline; */
+    text-decoration: lightblue;
+}
+ .main{
+   /* text-transform: capitalize; */
+   /* text-transform: uppercase; */
+   text-transform:lowercase;
+ }
