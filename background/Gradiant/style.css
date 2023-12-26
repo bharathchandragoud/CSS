@@ -1,0 +1,6 @@
+div {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background: linear-gradient(red, green);
+}
