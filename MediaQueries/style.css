@@ -4,5 +4,33 @@ Responsive design
 style elements on different screen sizes
 min-width -- starting from
 max-width -- up to 
-mibile first
+mobile first
 */
+
+body {
+  background-color: yellowgreen;
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  background-color: brown;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: blue;
+  }
+
+  h1 {
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: orangered;
+  }
+}
