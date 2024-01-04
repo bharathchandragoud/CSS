@@ -1,0 +1,31 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: aliceblue;
+}
+
+.animation {
+  /* animation:animation-name animation duration animation-iteration-count */
+  animation-name: myAnimation;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+}
+
+@keyframes myAnimation {
+  0% {
+    transform: translateX(20px);
+  }
+  30% {
+    background-color: blueviolet;
+    transform: translateX(200px);
+  }
+  70% {
+    background-color: green;
+    transform: translateX(-20px);
+  }
+  100% {
+    background-color: red;
+    transform: translate(-200px);
+  }
+}

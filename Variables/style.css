@@ -1,0 +1,21 @@
+:root {
+  --mainColor: red;
+  --secondColor: green;
+}
+
+.heading {
+  color: var(--mainColor);
+}
+
+.subheading,
+.childh {
+  color: var(--secondColor);
+}
+
+.MainDiv {
+  --paraColor: blue;
+}
+
+.text {
+  color: var(--paraColor);
+}
