@@ -1,0 +1,31 @@
+/* tansform:tanslate scale rotate skew*/
+
+div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+div:hover {
+  background-color: brown;
+}
+.one {
+  background-color: red;
+  /* transform: translateX(30px);
+  transform: skew(20deg); */
+}
+
+.two {
+  background-color: green;
+  /* transform: translateY(30px);
+  transform: rotate(45deg); */
+}
+
+.three {
+  background-color: black;
+  /* transform: translate(30px, 30px);
+  transform: scale(0.6); */
+  /* tasnsition: tansition-property transition-duration tansition-delay */
+  transition-property: background-color;
+  transition: 3s;
+}
